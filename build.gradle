@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    group 'com.example'
+    version '1.0-SNAPSHOT'
+}
+
+subprojects {
+    apply plugin: 'java'
+
+}

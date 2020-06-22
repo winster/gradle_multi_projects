@@ -1,0 +1,4 @@
+rootProject.name = 'gradlemulti'
+
+include 'classic_project'
+include 'api_project'
